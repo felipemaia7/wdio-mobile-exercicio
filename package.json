@@ -1,0 +1,20 @@
+{
+  "name": "wdio-mobile-exercicio",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "wdio run wdio.conf.js"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "*",
+    "@wdio/cli": "*",
+    "@wdio/globals": "*",
+    "@wdio/local-runner": "*",
+    "@wdio/mocha-framework": "*",
+    "@wdio/spec-reporter": "*",
+    "appium": "^3.9.0",
+    "appium-uiautomator2-driver": "^8.7.3",
+    "expect-webdriverio": "*",
+    "webdriverio": "*"
+  }
+}
